@@ -5,7 +5,7 @@
     </div>
     <div class="right">
       <div class="description">
-        <p>一个搬砖工 + 一个BUG创造者 + 一个伪文艺青年</p>
+        <p class="typing">一个搬砖工 + 一个BUG创造者 + 一个伪文艺青年</p>
         <p></p>
       </div>
     </div>
@@ -38,7 +38,7 @@ export default {
 .container_wap .left h1 {
   letter-spacing: 1px;
   text-align: right;
-  padding-right: 50px;
+  padding-right: 5%;
   color: #222;
   margin: -5px 0 0 0;
   font-size: 36px;
@@ -53,12 +53,12 @@ export default {
   height: 100%;
   display: block;
   position: absolute;
-  right: 30px;
+  right: 0;
   top: 0;
 }
 .container_wap .right {
-  float: right;
-  width: 60%;
+  float: left;
+  width: 55%;
 }
 .container_wap .right .description {
   padding: 0 20px;
@@ -69,7 +69,7 @@ export default {
   letter-spacing: 1px;
 }
 .container_wap .links {
-  margin: 80px 20% 0 0;
+  margin: 0 24% 0 0;
   clear: both;
   float: right;
 }
@@ -100,8 +100,53 @@ export default {
   margin: 0 15px;
   display: inline-block;
 }
+.typing {
+  width: 340px;
+  height: 18px;
+  border-right: 1px solid transparent;
+  animation: typing 4.5s steps(37, end), blink-caret 0.75s step-end infinite;
+  font-family: Consolas, Monaco;
+  word-break: break-all;
+  overflow: hidden;
+}
+/* 打印效果 */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 340px;
+  }
+}
+/* 光标闪啊闪 */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: currentColor;
+  }
+}
 @media (max-width: 640px) {
+  .container_wap .left,
+  .container_wap .right {
+    float: initial;
+    width: 100%;
+    text-align: center;
+  }
+  .container_wap .left:after {
+    display: none;
+  }
+  .container_wap .left h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+  }
+  .typing {
+    margin: 0 auto;
+  }
   .container_wap .links {
+    margin: 0;
     padding-top: 50px;
     float: unset;
     text-align: center;
