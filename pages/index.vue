@@ -1,0 +1,80 @@
+<template>
+  <div class="warpper">
+    <MHead class="head" />
+    <div class="container">
+      <Container />
+    </div>
+  </div>
+</template>
+
+<script>
+import MHead from './Head';
+import Container from './Container';
+export default {
+  name: 'Index',
+  components: {
+    MHead,
+    Container
+  }
+};
+</script>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'PT Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial,
+    Hiragino Sans GB, Microsoft YaHei, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+}
+.head {
+  position: fixed;
+  height: 45px;
+  width: 100%;
+  z-index: 999;
+  background: #333;
+  -webkit-font-smoothing: auto;
+}
+.container {
+  height: 100vh;
+  background-color: #fdfdfd;
+}
+body {
+  font-family: 'PT Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial,
+    Hiragino Sans GB, Microsoft YaHei, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+}
+
+.nav_container {
+  position: fixed;
+  height: 45px;
+  width: 100%;
+  z-index: 999;
+  background: #333;
+  -webkit-font-smoothing: auto;
+}
+.nav_container .nav {
+  height: 45px;
+  line-height: 45px;
+  text-align: right;
+  padding-right: 30px;
+}
+.nav_container .nav a {
+  font-size: 13px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 12px;
+  color: #fff;
+}
+.nav_container .nav a:hover {
+  color: red;
+}
+
+
+</style>
