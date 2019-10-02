@@ -1,5 +1,6 @@
 <template>
   <div class="warpper">
+    <CanvasGranule/>
     <MHead class="head" />
     <div class="container">
       <Container />
@@ -13,7 +14,8 @@
 <script>
 import MHead from './Head';
 import Container from './Container';
-import LeaveIcon from './LeaveIcon';
+import LeaveIcon from './../components/LeaveIcon';
+
 export default {
   name: 'Index',
   components: {
