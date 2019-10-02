@@ -3,6 +3,9 @@
     <MHead class="head" />
     <div class="container">
       <Container />
+      <a class="leave" href="//github.com/one-pupil/docs/issues/1" target="_blank">
+        <LeaveIcon/>
+      </a>
     </div>
   </div>
 </template>
@@ -10,11 +13,13 @@
 <script>
 import MHead from './Head';
 import Container from './Container';
+import LeaveIcon from './LeaveIcon';
 export default {
   name: 'Index',
   components: {
     MHead,
-    Container
+    Container,
+    LeaveIcon
   },
   head () {
     return {
@@ -87,6 +92,10 @@ body {
 .nav_container .nav a:hover {
   color: red;
 }
-
+.leave {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
 
 </style>
