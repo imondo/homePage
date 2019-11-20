@@ -11,7 +11,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_canvas_251ce44c from 'nuxt_plugin_canvas_251ce44c' // Source: ../plugins/canvas (mode: 'client')
+import nuxt_plugin_canvas_251ce44c from 'nuxt_plugin_canvas_251ce44c' // Source: ..\\plugins\\canvas (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)

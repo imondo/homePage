@@ -3,9 +3,9 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _52fed5b0 = () => interopDefault(import('../pages/Container.vue' /* webpackChunkName: "pages/Container" */))
-const _a3dc96ee = () => interopDefault(import('../pages/Head.vue' /* webpackChunkName: "pages/Head" */))
-const _7c3b6099 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _cf89872e = () => interopDefault(import('..\\pages\\Container.vue' /* webpackChunkName: "pages_Container" */))
+const _7129c8a8 = () => interopDefault(import('..\\pages\\Head.vue' /* webpackChunkName: "pages_Head" */))
+const _1c25d05a = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
 
 Vue.use(Router)
 
@@ -18,15 +18,15 @@ export const routerOptions = {
 
   routes: [{
       path: "/Container",
-      component: _52fed5b0,
+      component: _cf89872e,
       name: "Container"
     }, {
       path: "/Head",
-      component: _a3dc96ee,
+      component: _7129c8a8,
       name: "Head"
     }, {
       path: "/",
-      component: _7c3b6099,
+      component: _1c25d05a,
       name: "index"
     }],
 
