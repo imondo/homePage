@@ -1,6 +1,6 @@
 <template>
   <header class="nav">
-    <a href="//one-pupil.github.io/blog/" target="_blank">Docs</a>
+    <a href="//docs.imondo.cn" target="_blank">Docs</a>
     <a href="//github.com/one-pupil/" target="_blank">Github</a>
   </header>
 </template>
