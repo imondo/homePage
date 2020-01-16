@@ -1,7 +1,7 @@
 <template>
   <header class="nav">
     <a href="//docs.imondo.cn" target="_blank">Docs</a>
-    <a href="//github.com/one-pupil/" target="_blank">Github</a>
+    <a href="//github.com/one-pupil/" target="_blank">GitHub</a>
   </header>
 </template>
 
