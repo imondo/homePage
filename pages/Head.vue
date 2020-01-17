@@ -19,10 +19,17 @@ export default {
   padding-right: 30px;
 }
 .nav a {
-  font-size: 13px;
+  font-size: 14px;
   display: inline-block;
   text-decoration: none;
   margin: 0 12px;
-  color: #fff;
+  padding: 0 15px;
+  color: #314659;
+  border-top: 2px solid transparent;
+  transition: all 0.3s;
+}
+.nav a:hover {
+  color: #1890ff;
+  border-top: 2px solid #1890ff;
 }
 </style>

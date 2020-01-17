@@ -49,7 +49,7 @@ export default {
 .container_wap .left:after {
   content: '';
   width: 2px;
-  background: red;
+  background: #ff4d4f;
   height: 100%;
   display: block;
   position: absolute;
@@ -86,7 +86,7 @@ export default {
   display: inline-block;
 }
 .container_wap .links a:hover {
-  background: indianred;
+  background: #1890ff;
 }
 .container_wap .btn {
   background: #2e95ff;
