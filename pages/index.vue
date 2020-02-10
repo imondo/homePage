@@ -55,7 +55,7 @@ body {
   height: 45px;
   width: 100%;
   z-index: 999;
-  background: #fff;
+  background: transparent;
   -webkit-font-smoothing: auto;
   box-shadow: 0 2px 8px #fdfdfd;
 }
