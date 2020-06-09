@@ -3,9 +3,16 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _cf89872e = () => interopDefault(import('..\\pages\\Container.vue' /* webpackChunkName: "pages_Container" */))
-const _7129c8a8 = () => interopDefault(import('..\\pages\\Head.vue' /* webpackChunkName: "pages_Head" */))
-const _1c25d05a = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
+const _33ea3453 = () => interopDefault(import('..\\pages\\Container.vue' /* webpackChunkName: "pages_Container" */))
+const _c873f304 = () => interopDefault(import('..\\pages\\Head.vue' /* webpackChunkName: "pages_Head" */))
+const _45114d44 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
+
+// TODO: remove in Nuxt 3
+const emptyFn = () => {}
+const originalPush = Router.prototype.push
+Router.prototype.push = function push (location, onComplete = emptyFn, onAbort) {
+  return originalPush.call(this, location, onComplete, onAbort)
+}
 
 Vue.use(Router)
 
@@ -17,22 +24,22 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-      path: "/Container",
-      component: _cf89872e,
-      name: "Container"
-    }, {
-      path: "/Head",
-      component: _7129c8a8,
-      name: "Head"
-    }, {
-      path: "/",
-      component: _1c25d05a,
-      name: "index"
-    }],
+    path: "/Container",
+    component: _33ea3453,
+    name: "Container"
+  }, {
+    path: "/Head",
+    component: _c873f304,
+    name: "Head"
+  }, {
+    path: "/",
+    component: _45114d44,
+    name: "index"
+  }],
 
   fallback: false
 }
 
-export function createRouter() {
+export function createRouter () {
   return new Router(routerOptions)
 }

@@ -1,7 +1,7 @@
 {
   "name": "mondo-home",
   "version": "1.0.0",
-  "repository": "https://github.com/one-pupil/mondo-home.git",
+  "repository": "https://github.com/one-pupil/homePage.git",
   "author": "Mondo <568197478@qq.com>",
   "license": "MIT",
   "scripts": {

@@ -5,7 +5,7 @@
     </div>
     <div class="right">
       <div class="description">
-        <p class="typing">一个搬砖工 + 一个BUG创造者 + 一个伪文艺青年</p>
+        <p class="typing">搬砖工 + BUG工程师 + 伪文艺青年</p>
         <p></p>
       </div>
     </div>
@@ -101,7 +101,7 @@ export default {
   display: inline-block;
 }
 .typing {
-  width: 340px;
+  width: 247px;
   height: 18px;
   border-right: 1px solid transparent;
   animation: typing 4.5s steps(37, end), blink-caret 0.75s step-end infinite;
