@@ -1,5 +1,6 @@
 <template>
   <header class="nav">
+    <a href="//www.yuque.com/mondo/docs" target="_blank">仿如昨日</a>
     <a href="//docs.imondo.cn" target="_blank">Docs</a>
     <a href="//github.com/one-pupil/" target="_blank">GitHub</a>
   </header>
