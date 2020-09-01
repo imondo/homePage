@@ -21,7 +21,7 @@
       <a href="//one-pupil.github.io/js-utils/" target="_blank" class="btn"
         >日常 JS 库</a
       >
-      <a href="//news.imondo.cn/" target="_blank" class="btn"
+      <a href="http://news.imondo.cn/" target="_blank" class="btn"
         >node 小爬虫本地新闻</a
       >
       <a href="//github.com/one-pupil/vue-template" target="_blank" class="btn"
