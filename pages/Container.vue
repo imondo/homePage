@@ -33,6 +33,9 @@
       <a href="//one-pupil.github.io/rqk-ui/" target="_blank" class="btn"
         >rqk-ui</a
       >
+      <a href="https://imondo.cn/files/carapp.jpg" target="_blank" class="btn"
+        >微信小程序【查车牌】</a
+      >
     </div>
   </div>
 </template>
