@@ -18,7 +18,15 @@
 export default {
   name: 'LinksItem',
   props: {
-    data: Object
+    data: {
+      type: Object,
+      default: () => ({
+        url: '',
+        title: '',
+        img: '',
+        rich: ''
+      })
+    }
   }
 };
 </script>

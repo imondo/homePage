@@ -6,7 +6,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 const _33ea3453 = () => interopDefault(import('..\\pages\\Container.vue' /* webpackChunkName: "pages_Container" */))
 const _c873f304 = () => interopDefault(import('..\\pages\\Head.vue' /* webpackChunkName: "pages_Head" */))
 const _7f8fb4be = () => interopDefault(import('..\\pages\\LinksItem.vue' /* webpackChunkName: "pages_LinksItem" */))
-const _ab05fdd0 = () => interopDefault(import('..\\pages\\Projects.vue' /* webpackChunkName: "pages_Projects" */))
+const _be9ca610 = () => interopDefault(import('..\\pages\\projects.vue' /* webpackChunkName: "pages_projects" */))
 const _69a042b0 = () => interopDefault(import('..\\pages\\example\\car.vue' /* webpackChunkName: "pages_example_car" */))
 const _45114d44 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
 
@@ -39,9 +39,9 @@ export const routerOptions = {
     component: _7f8fb4be,
     name: "LinksItem"
   }, {
-    path: "/Projects",
-    component: _ab05fdd0,
-    name: "Projects"
+    path: "/projects",
+    component: _be9ca610,
+    name: "projects"
   }, {
     path: "/example/car",
     component: _69a042b0,

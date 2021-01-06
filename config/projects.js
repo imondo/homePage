@@ -8,7 +8,7 @@ export default [
   {
     url: 'http://news.imondo.cn/',
     title: 'Mondo News',
-    img: 'http://news.imondo.cn/logo.png',
+    img: '/news.png',
     rich: 'node 小爬虫本地新闻；使用 node 程序爬取本地新闻，汇总每日新闻。'
   },
   {

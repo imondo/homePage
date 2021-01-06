@@ -10,7 +10,7 @@ export default {
       {
         name: 'projects',
         path: '/projects',
-        component: 'pages/Projects.vue'
+        component: 'pages/projects.vue'
       },
       {
         name: 'example',
@@ -19,6 +19,9 @@ export default {
       },
     ]
   },
+  generate: {
+    routes: ['/projects', '/', '/example/car']
+  },  
   build: {
     vendor: ['@/plugins/canvas']
   },

@@ -6,9 +6,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt generate"
+    "build": "nuxt generate",
+    "deploy": "yarn build && fd-cli"
   },
   "dependencies": {
+    "fronted-deploy-cli": "^1.2.0",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {

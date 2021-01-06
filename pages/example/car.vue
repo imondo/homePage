@@ -15,6 +15,13 @@
           <a
             href="https://pan.baidu.com/s/1p7CLGqLRS-lVxHfyH-iknA"
             target="_blank"
+            class="method-tips"
+            >提取码：cars</a
+          >
+          <a
+            href="https://pan.baidu.com/s/1p7CLGqLRS-lVxHfyH-iknA"
+            target="_blank"
+            title="提取码：cars"
           >
             <svg
               t="1609919927194"
@@ -40,10 +47,10 @@
           </a>
         </p>
         <section class="inner invalid">
-          <img src="/car/bd.png" alt="二维码" />
+          <img src="/cimg/bd.png" alt="二维码" />
         </section>
       </section>
-      <img src="/car/a.png" alt="书桌" class="decoration" />
+      <img src="/cimg/a.png" alt="书桌" class="decoration" />
     </section>
   </section>
 </template>
@@ -103,18 +110,28 @@ body {
   position: relative;
 }
 .login-page .inner .main .method {
+  position: relative;
   margin-bottom: 50px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   transition: all 0.3s;
 }
+.method-tips {
+  font-size: 11px;
+  color: #9b9b9f;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  font-weight: 500;
+  text-decoration: none;
+}
 .login-page .invalid img {
   width: 150px;
   height: 150px;
 }
 .login-page .inner .decoration {
-  margin-left: 200px;
+  margin-left: 100px;
   height: 500px;
   transform: scale(1.5);
 }
@@ -122,6 +139,23 @@ body {
   display: inline-block;
   vertical-align: middle;
   width: 20px;
-  height: 20px
+  height: 20px;
+}
+@media (max-width: 640px) {
+  .login-page .inner {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .login-page .inner .main {
+    margin: 50px 0 0 0;
+    font-size: 20px;
+  }
+  .login-page .inner .decoration {
+    margin: 50px 0 0 0;
+    width: 80%;
+    height: auto;
+    transform: scale(1.2);
+  }
 }
 </style>
