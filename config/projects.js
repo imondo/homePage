@@ -36,6 +36,12 @@ export default [
     rich: '前端本地部署至远程服务器工具。解决繁琐的手动打包、部署服务器；只要一个命令及时发布你的前端应用。'
   },
   {
+    url: '//one-pupil.github.io/css-libs/index.html',
+    title: 'CSS Libs',
+    img: 'https://one-pupil.github.io/css-libs/ydoc/images/dogbg@1x.png',
+    rich: 'CSS 效果集合；记录工作中使用，碰到过的 css 效果；通过记录与收集，方便以后能够随时查阅。'
+  },
+  {
     url: '//one-pupil.github.io/vue3-dev-book/',
     title: 'Vue3.0 入门开发小册',
     img: 'https://one-pupil.github.io/vue3-dev-book/images/vue.png',
