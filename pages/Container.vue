@@ -6,36 +6,14 @@
       </div>
       <div class="right">
         <div class="description">
-          <p class="typing">搬砖工 + BUG工程师 + 伪文艺青年</p>
+          <p class="typing">搬砖工 + BUG创造者 + 全干工程师</p>
           <p></p>
         </div>
       </div>
     </div>
     <div class="links">
-      <a
-        href="//one-pupil.github.io/fe-dev-command/"
-        target="_blank"
-        class="btn"
-        >前端命令</a
-      >
-      <a href="//one-pupil.github.io/js-utils/" target="_blank" class="btn"
-        >日常 JS 库</a
-      >
-      <a href="http://news.imondo.cn/" target="_blank" class="btn"
-        >node 小爬虫本地新闻</a
-      >
-      <a href="//github.com/one-pupil/vue-template" target="_blank" class="btn"
-        >Vue 后台管理模板</a
-      >
-      <a href="//github.com/one-pupil/react-board" target="_blank" class="btn"
-        >React 移动端模板</a
-      >
-      <a href="//one-pupil.github.io/rqk-ui/" target="_blank" class="btn"
-        >rqk-ui</a
-      >
-      <a href="https://imondo.cn/files/carapp.jpg" target="_blank" class="btn"
-        >微信小程序【查车牌】</a
-      >
+      <a href="//www.yuque.com/mondo/docs" target="_blank" class="btn">仿如昨日</a>
+      <a href="//docs.imondo.cn" target="_blank" class="btn">Docs 博客</a>
     </div>
   </div>
 </template>
@@ -95,40 +73,10 @@ export default {
 .container_wap .links {
   width: 80%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
   clear: both;
   padding: 35px 0 0 0;
-}
-.container_wap .links a {
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  background: #2e95ff;
-  color: #fff;
-  text-decoration: none;
-  letter-spacing: 0.5px;
-  font-size: 14px;
-  line-height: 18px;
-  border-radius: 0;
-  padding: 7px 20px;
-  margin: 15px;
-  display: inline-block;
-}
-.container_wap .links a::before {
-  z-index: -1;
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  background-color: #40a9ff;
-  transform-origin: center;
-  transform: translate3d(-50%, -50%, 0) scale(0, 0);
-  transition: transform .35s ease-in-out;
-}
-.container_wap .links a:hover::before {
-  transform: translate3d(-50%, -50%, 0) scale(15, 15);
 }
 .container_wap .btn {
   background: #2e95ff;
@@ -140,6 +88,7 @@ export default {
   border-radius: 5px;
   padding: 7px 20px;
   margin: 0 15px;
+  border-radius: 0;
   display: inline-block;
 }
 .typing {
@@ -192,6 +141,8 @@ export default {
     margin: 0;
     padding-top: 50px;
     float: unset;
+    flex-direction: column;
+    justify-content: inherit;
     text-align: center;
   }
   .container_wap .links a {

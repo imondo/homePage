@@ -55,20 +55,13 @@ body {
   height: 45px;
   width: 100%;
   z-index: 999;
-  background: transparent;
+  background: #fdfdfd;
   -webkit-font-smoothing: auto;
   box-shadow: 0 2px 8px #fdfdfd;
 }
 .container {
   height: 100vh;
   background-color: #fdfdfd;
-}
-body {
-  font-family: 'PT Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial,
-    Hiragino Sans GB, Microsoft YaHei, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  padding: 0;
-  margin: 0;
 }
 
 .nav_container {
