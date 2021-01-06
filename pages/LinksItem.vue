@@ -39,7 +39,6 @@ export default {
   background: #ededef;
 }
 .project-title {
-  width: 27rem;
   display: inline-block;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -80,5 +79,14 @@ export default {
   text-align: left;
   flex: 1;
   line-height: 1.6;
+}
+@media (max-width: 640px) {
+  .project-item {
+    border-radius: 0;
+  }
+  .project-pic {
+    width: 100px;
+    height: 100px;
+  }
 }
 </style>

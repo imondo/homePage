@@ -11,7 +11,12 @@ export default {
         name: 'projects',
         path: '/projects',
         component: 'pages/Projects.vue'
-      }
+      },
+      {
+        name: 'example',
+        path: '/example/car',
+        component: 'pages/example/car.vue'
+      },
     ]
   },
   build: {

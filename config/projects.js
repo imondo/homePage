@@ -1,6 +1,6 @@
 export default [
   {
-    url: 'https://imondo.cn/files/carapp.jpg',
+    url: '/example/car',
     title: '查车牌',
     img: 'https://imondo.cn/files/carapp.jpg',
     rich: '一个可以查询车牌归属地和车辆品牌的应用，分为微信小程序和 app 两端。微信小程序使用 tarojs 开发；app 端使用 React Native 开发'

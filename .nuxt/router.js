@@ -7,6 +7,7 @@ const _33ea3453 = () => interopDefault(import('..\\pages\\Container.vue' /* webp
 const _c873f304 = () => interopDefault(import('..\\pages\\Head.vue' /* webpackChunkName: "pages_Head" */))
 const _7f8fb4be = () => interopDefault(import('..\\pages\\LinksItem.vue' /* webpackChunkName: "pages_LinksItem" */))
 const _ab05fdd0 = () => interopDefault(import('..\\pages\\Projects.vue' /* webpackChunkName: "pages_Projects" */))
+const _69a042b0 = () => interopDefault(import('..\\pages\\example\\car.vue' /* webpackChunkName: "pages_example_car" */))
 const _45114d44 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
 
 // TODO: remove in Nuxt 3
@@ -41,6 +42,10 @@ export const routerOptions = {
     path: "/Projects",
     component: _ab05fdd0,
     name: "Projects"
+  }, {
+    path: "/example/car",
+    component: _69a042b0,
+    name: "example-car"
   }, {
     path: "/",
     component: _45114d44,
