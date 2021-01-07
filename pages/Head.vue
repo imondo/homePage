@@ -1,7 +1,7 @@
 <template>
   <header class="nav">
     <nuxt-link v-if="show" class="logo" to="/">Mondo</nuxt-link>
-    <nuxt-link to="/projects" class="nav-link">项目</nuxt-link>
+    <nuxt-link to="/projects" class="nav-link">ITEMS</nuxt-link>
     <a href="//github.com/one-pupil/" target="_blank" class="nav-link">GitHub</a>
   </header>
 </template>
