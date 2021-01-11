@@ -12,6 +12,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 /* Plugins */
 
 import nuxt_plugin_canvas_251ce44c from 'nuxt_plugin_canvas_251ce44c' // Source: ..\\plugins\\canvas (mode: 'client')
+import nuxt_plugin_baidu_222c90a7 from 'nuxt_plugin_baidu_222c90a7' // Source: ..\\plugins\\baidu (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -152,6 +153,10 @@ async function createApp (ssrContext) {
 
   if (process.client && typeof nuxt_plugin_canvas_251ce44c === 'function') {
     await nuxt_plugin_canvas_251ce44c(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_baidu_222c90a7 === 'function') {
+    await nuxt_plugin_baidu_222c90a7(app.context, inject)
   }
 
   // If server-side, wait for async component to be resolved first

@@ -23,11 +23,15 @@ export default {
     routes: ['/projects', '/', '/example/car']
   },  
   build: {
-    vendor: ['@/plugins/canvas']
+    vendor: ['@/plugins/canvas', '@/plugins/baidu']
   },
   plugins: [
     {
       src: '@/plugins/canvas',
+      ssr: false
+    },
+    {
+      src: '@/plugins/baidu',
       ssr: false
     }
   ]
