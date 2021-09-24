@@ -15,8 +15,24 @@
       <a href="//www.yuque.com/mondo/docs" target="_blank" class="btn"
         >仿如昨日</a
       >
-      <a href="//docs.imondo.cn" target="_blank" class="btn">Docs 博客</a>
+      <a href="//docs.imondo.cn" target="_blank" class="btn">docs 博客</a>
     </div>
+    <svg width="0" height="0">
+      <filter id="displacement-text-filter">
+        <!--定义feTurbulence滤镜-->
+        <feTurbulence baseFrequency="0.02" seed="0">
+          <!--这是svg动画的定义方式，通过动画不断改变seed的值，形成抖动效果-->
+          <animate
+            attributeName="seed"
+            dur="800ms"
+            keyTimes="0;0.5;1"
+            values="1;2;3"
+            repeatCount="indefinite"
+          ></animate>
+        </feTurbulence>
+        <feDisplacementMap in="SourceGraphic" scale="10" />
+      </filter>
+    </svg>
   </div>
 </template>
 
@@ -48,7 +64,9 @@ export default {
   font-size: 36px;
   font-weight: normal;
   font-family: PingFangSC-Ultralight, sans-serif;
+  /* filter: url(#displacement-text-filter); */
 }
+
 
 .container_wap .left:after {
   content: '';

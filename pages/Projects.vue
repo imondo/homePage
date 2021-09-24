@@ -10,7 +10,7 @@
       </div>
       <a
         class="leave"
-        href="//github.com/one-pupil/docs/issues/1"
+        href="//github.com/imondo/docs/issues/1"
         target="_blank"
       >
         <LeaveIcon />

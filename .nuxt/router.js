@@ -3,12 +3,12 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _33ea3453 = () => interopDefault(import('..\\pages\\Container.vue' /* webpackChunkName: "pages_Container" */))
-const _c873f304 = () => interopDefault(import('..\\pages\\Head.vue' /* webpackChunkName: "pages_Head" */))
-const _7f8fb4be = () => interopDefault(import('..\\pages\\LinksItem.vue' /* webpackChunkName: "pages_LinksItem" */))
-const _be9ca610 = () => interopDefault(import('..\\pages\\projects.vue' /* webpackChunkName: "pages_projects" */))
-const _69a042b0 = () => interopDefault(import('..\\pages\\example\\car.vue' /* webpackChunkName: "pages_example_car" */))
-const _45114d44 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
+const _6379e592 = () => interopDefault(import('..\\pages\\Container.vue' /* webpackChunkName: "pages_Container" */))
+const _6f6e49df = () => interopDefault(import('..\\pages\\Head.vue' /* webpackChunkName: "pages_Head" */))
+const _a1c13406 = () => interopDefault(import('..\\pages\\LinksItem.vue' /* webpackChunkName: "pages_LinksItem" */))
+const _1fa2abf9 = () => interopDefault(import('..\\pages\\Projects.vue' /* webpackChunkName: "pages_Projects" */))
+const _e4599dee = () => interopDefault(import('..\\pages\\example\\car.vue' /* webpackChunkName: "pages_example_car" */))
+const _331d13fa = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -28,27 +28,27 @@ export const routerOptions = {
 
   routes: [{
     path: "/Container",
-    component: _33ea3453,
+    component: _6379e592,
     name: "Container"
   }, {
     path: "/Head",
-    component: _c873f304,
+    component: _6f6e49df,
     name: "Head"
   }, {
     path: "/LinksItem",
-    component: _7f8fb4be,
+    component: _a1c13406,
     name: "LinksItem"
   }, {
-    path: "/projects",
-    component: _be9ca610,
-    name: "projects"
+    path: "/Projects",
+    component: _1fa2abf9,
+    name: "Projects"
   }, {
     path: "/example/car",
-    component: _69a042b0,
+    component: _e4599dee,
     name: "example-car"
   }, {
     path: "/",
-    component: _45114d44,
+    component: _331d13fa,
     name: "index"
   }],
 

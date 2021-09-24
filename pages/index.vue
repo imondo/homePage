@@ -4,10 +4,11 @@
     <MHead class="head" />
     <div class="container">
       <Container />
-      <a class="leave" href="//github.com/one-pupil/docs/issues/1" target="_blank">
+      <a class="leave" href="//github.com/imondo/docs/issues/1" target="_blank">
         <LeaveIcon/>
       </a>
     </div>
+    <Footer />
   </div>
 </template>
 
@@ -15,17 +16,19 @@
 import MHead from './Head';
 import Container from './Container';
 import LeaveIcon from './../components/LeaveIcon';
+import Footer from './../components/Footer';
 
 export default {
   name: 'Index',
   components: {
     MHead,
     Container,
-    LeaveIcon
+    LeaveIcon,
+    Footer
   },
   head () {
     return {
-      title: 'Mondo',
+      title: '我生活日常',
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -60,7 +63,7 @@ body {
   box-shadow: 0 2px 8px #fdfdfd;
 }
 .container {
-  height: 100vh;
+  height: 98vh;
   background-color: #fdfdfd;
 }
 
