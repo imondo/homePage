@@ -1,0 +1,55 @@
+.projects {
+    color: #374151;
+    max-width: 65ch;
+    display: block;
+    padding-bottom: 8rem;
+}
+
+.meta-line {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.meta-line .meta-back {
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.75;
+    --tw-text-opacity: 1;
+    color: rgba(75,85,99,var(--tw-text-opacity));
+}
+
+.projects ul {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+}
+
+.projects ul h3 {
+    color: #111827;
+    font-weight: 600;
+    font-size: 1.25em;
+    margin-top: 1.6em;
+    margin-bottom: 0.6em;
+    line-height: 1.6;
+}
+
+.post-item .post-item-title {
+    text-decoration: none;
+    color: unset;
+    font-weight: 500;
+}
+
+.post-item .post-item-desc {
+    margin-bottom: 0.5em;
+    --tw-text-opacity: 1;
+    color: rgba(156,163,175,var(--tw-text-opacity));
+}
+
+.post-item .post-item-more {
+    text-decoration: underline;
+    font-weight: 500;
+    margin-left: 0.25rem;
+    --tw-text-opacity: 1;
+    color: rgba(75,85,99,var(--tw-text-opacity));
+}
