@@ -5,6 +5,7 @@ import './index.css'
 import App from './pages/App'
 import Projects from './pages/Projects'
 import Car from './pages/Car'
+import AppCar from './pages/apps/AppCar'
 
 function BasicRoute() {
     return (
@@ -13,6 +14,7 @@ function BasicRoute() {
                 <Route path='/' element={<App />} />
                 <Route path='/outs' element={<Projects />} />
                 <Route path='/query_car' element={<Car />} />
+                <Route path='/app_car' element={<AppCar />} />
             </Routes>
         </BrowserRouter>
     )

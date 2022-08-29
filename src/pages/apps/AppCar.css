@@ -1,0 +1,57 @@
+.app-car {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+.app-car-left {
+    width: 240px;
+    color: #1d2129;
+    margin-right: -10%;
+    padding-top: 40px;
+}
+.app-car-left img {
+    width: 60px;
+}
+.app-logo {
+    display: flex;
+    align-items: center;
+}
+.intro {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 24px 0 48px;
+    white-space: nowrap;
+    color: #303030;
+}
+.intro-tips {
+    font-size: 16px;
+    color: #333;
+}
+.intro-tips span {
+    padding-right: 10px;
+    color: #999;
+}
+.app-logo h4 {
+    padding-left: 10px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.app-car-right {
+    flex: 1;
+    text-align: right;
+}
+.app-car-right img {
+    width: 300px;
+    margin-top: 30px;
+    /* filter: drop-shadow(40px 40px 100px rgba(0,0,0,.15)); */
+}
+
+@media (max-width:1360px) {
+    .app-car {
+        flex-direction: column;
+    }
+    .app-car-right {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
