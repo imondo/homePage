@@ -58,7 +58,7 @@ h1 span {
 .home a {
   display: inline-block;
   margin-top: 2.4rem;
-  margin-right: 0.2rem;
+  margin-right: 0.45rem;
   padding: 0.3rem 0.8rem;
   background: var(--color-decoration);
   border-radius: 4px;

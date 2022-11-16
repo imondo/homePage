@@ -6,6 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "gitea": "git push gitea v2",
     "deploy": "yarn build && fd-cli"
   },
   "dependencies": {
