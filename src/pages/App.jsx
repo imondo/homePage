@@ -12,7 +12,7 @@ function App() {
       <p className='line'>也做一些小小的 Node 开发。</p>
       <a href="https://github.com/imondo" target="_blank">Github</a>
       <a href="https://notes.imondo.cn/posts">Blog</a>
-      <a href="https://www.yuque.com/mondo" target="_blank">语雀</a>
+      <a href="https://imondo.github.io/docs" target="_blank">小册</a>
       <Link to="/outs">Works</Link>
     </main>
   )
