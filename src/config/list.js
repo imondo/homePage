@@ -12,7 +12,7 @@ export default [
     {
         url: 'http://news.imondo.cn/',
         title: 'Mondo News',
-        rich: '爬取汇总每日新闻。'
+        rich: '汇总每日新闻。'
     },
     {
         url: '//imondo.github.io/rqk-ui/',

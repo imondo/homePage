@@ -49,6 +49,23 @@ h1 {
 h1 span {
   display: block;
 }
+.inline-block {
+  display: inline-block;
+}
+
+h1 .name {
+  margin: 0;
+  font-weight: bold;
+  text-shadow: 2px 2px 0 #efefef;
+}
+
+h1 .hell {
+  padding-right: 10px;
+  animation-name: hello;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+}
 
 .line {
   font-size: 1.4rem;
@@ -69,4 +86,22 @@ h1 span {
 .home a:hover {
   background: var(--color-text);
   color: var(--color-background);
+}
+
+@keyframes hello {
+  from,50%,to {
+      transform: rotate(0deg)
+  }
+
+  10%,30% {
+      transform: rotate(-10deg)
+  }
+
+  20% {
+      transform: rotate(12deg)
+  }
+
+  40% {
+      transform: rotate(9deg)
+  }
 }
