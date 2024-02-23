@@ -10,14 +10,19 @@ export default [
         rich: '清爽的地址管理微信小程序。'
     },
     {
-        url: 'http://news.imondo.cn/',
+        url: 'http://150.158.191.154:5080/',
         title: 'Mondo News',
         rich: '汇总每日新闻。'
     },
     {
-        url: '//imondo.github.io/rqk-ui/',
+        url: '//imondo.github.io/nimble-ui/',
         title: 'RQK UI',
         rich: '基于 React 16.x 开发的移动端 UI 组件。'
+    },
+    {
+        url: 'https://imondo.github.io/tea-kit/',
+        title: 'tea-kit',
+        rich: '一个大杂烩。'
     },
     {
         url: '//github.com/imondo/fronted-deploy-cli',
