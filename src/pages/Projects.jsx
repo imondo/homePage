@@ -5,7 +5,7 @@ import MINE_PROJECTS from '../config/list'
 const Projects = props => {
     return (
         <article className='projects'>
-            <h1>Works</h1>
+            <h1>SideProjects</h1>
             <div className="meta-line">
                 <a className="meta-back" href="/">Back</a>
             </div>

@@ -12,12 +12,13 @@ function App() {
           <span className='inline-block hell'>👋</span><span className='inline-block'>Hello,</span>
           <p className='name'>I am Mondo.</p>
         </h1>
-        <div className='line'>主流<Highlight icon={['javascript']} highlightClass="moegi">前端</Highlight>开发工程师，就职于<Highlight icon={['didi']} highlightClass="orange">不出名公司</Highlight>。</div>
-        <p className='line'>也做一些小小的 Node 开发。</p>
+        <div className='line'><Highlight icon={['javascript']} highlightClass="moegi">Frontend</Highlight> Developer，Working at a<Highlight icon={['didi']} highlightClass="orange">lesser-known</Highlight> company.</div>
+        <p className='line'>Keep coding, Keep life.</p>
+        <p className='line'>Exploring a small side project.</p>
         <a href="https://github.com/imondo" target="_blank">GitHub</a>
         <a href="https://notes.imondo.cn/posts">Blog</a>
         <a href="https://imondo.github.io/docs" target="_blank">Books</a>
-        <Link to="/outs">Works</Link>
+        <Link to="/outs">SideProjects</Link>
       </main>
       <footer>
         <a href="https://beian.miit.gov.cn/" target="_blank">湘ICP备18003522号-1</a>
