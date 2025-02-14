@@ -19,11 +19,11 @@ export default [
     //     title: 'RQK UI',
     //     rich: '基于 React 16.x 开发的移动端 UI 组件。'
     // },
-    // {
-    //     url: 'https://imondo.github.io/tea-kit/',
-    //     title: 'tea-kit',
-    //     rich: '一个大杂烩。'
-    // },
+    {
+        url: 'https://imondo.github.io/tea-kit/',
+        title: 'tea-kit',
+        rich: '一个大杂烩。'
+    },
     {
         url: '//github.com/imondo/fronted-deploy-cli',
         title: 'fronted-deploy-cli',
