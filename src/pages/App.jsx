@@ -14,7 +14,7 @@ function App() {
         </h1>
         <div className='line'><Highlight icon={['javascript']} highlightClass="moegi">Frontend</Highlight> Developer，Working at a<Highlight icon={['didi']} highlightClass="orange">lesser-known</Highlight> company.</div>
         <p className='line'>Keep coding, Keep life.</p>
-        <p className='line'>Exploring a small side project.</p>
+        {/* <p className='line'>Exploring a small side project.</p> */}
         <a href="https://github.com/imondo" target="_blank">GitHub</a>
         <a href="https://notes.imondo.cn/posts">Blog</a>
         <a href="https://imondo.github.io/docs" target="_blank">Books</a>
