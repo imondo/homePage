@@ -1,5 +1,10 @@
 export default [
     {
+        url: 'https://apps.apple.com/cn/app/id6757837201?platform=iphone',
+        title: 'DayMind',
+        rich: '随手记录生活里的每一个想法'
+    },
+    {
         url: 'https://imondo.github.io/landing_page_car/',
         title: '查车牌',
         rich: '查询车牌归属地、汽车品牌、今日油价。'
